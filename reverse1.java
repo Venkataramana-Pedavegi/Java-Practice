@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class SumOfDigits {
+public class reverse1 {
     public static void main(String[] args) {
          Scanner sc = new Scanner(System.in);
     System.out.println("Enter your number");
@@ -14,7 +14,7 @@ public class SumOfDigits {
 
     }
     System.out.println("Sum of digits: " +sum );
-
+    sc.close();
     
 }
 }

@@ -42,6 +42,7 @@ public class StringP1 {
         System.out.println(s2.split(" "));
         System.out.println(s2.replace("hi","hey"));
         System.out.println(String.valueOf(s3));
+        System.out.println(s4==s5);
     }
 
     

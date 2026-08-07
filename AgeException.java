@@ -15,6 +15,7 @@ public class AgeException {
         }
         finally{
                 sc.close();
+                
 
             System.out.println("code ended");
         }

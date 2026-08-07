@@ -5,7 +5,7 @@ public class Table {
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter your number");
         int n = sc.nextInt();
-        for(int i=0;i<=n;i++){
+        for(int i=0;i<=10;i++){
             System.out.println(n*i);
         }
         sc.close();

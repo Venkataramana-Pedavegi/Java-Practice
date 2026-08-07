@@ -7,10 +7,10 @@ public class Factorial1 {
         int n = sc.nextInt();
         long factorial =1;
         for(int i=1;i<=n;i++){
-           factorial = factorial*i; 
+           factorial = factorial*i;
         }
         System.out.println("Factorial of the number is :"+factorial);
-        sc.close();
+        sc.close(); 
     }
     
 }

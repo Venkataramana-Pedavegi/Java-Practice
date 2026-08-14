@@ -1,7 +1,9 @@
 import java.util.ArrayList;
 
 public class FactorialOrder {
+
     public static ArrayList<Integer> primeFac(int n) {
+
         ArrayList<Integer> result = new ArrayList<>();
 
         for (int i = 2; i <= n; i++) {
@@ -16,6 +18,14 @@ public class FactorialOrder {
         }
 
         return result;
-        
+    }
+
+    public static void main(String[] args) {
+
+        int n = 100;
+
+        ArrayList<Integer> result = primeFac(n);
+
+        System.out.println(result);
     }
 }

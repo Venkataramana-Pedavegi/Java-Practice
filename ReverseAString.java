@@ -3,7 +3,7 @@ public class ReverseAString {
         String s= "Chapri";
         String ans=" ";
 
-        for(int i=5;i>=0;i--){
+        for(int i=s.length();i>=0;i--){
             ans=ans+s.charAt(i);
         }
         System.out.println(ans);
